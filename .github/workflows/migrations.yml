@@ -1,9 +1,9 @@
 name: migrations
 on:
   push:
-    branches: [ main, migrate_actions ]
+    branches: [ main, ma ]
   pull_request:
-    branches: [ main, migrate_actions ]
+    branches: [ main, ma ]
 env:
   GO_VERSION: '1.18'
   DB_USER: dbadmin
